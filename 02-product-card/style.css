@@ -1,39 +1,42 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   background-color: #d4e0ef;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card{
+.card {
   width: 250px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 16px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
 }
 
-.shoe-pic{
+.shoe-pic {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .shoe-desc h3 {
+  font-size: 18px;
   margin: 12px 0
 }
 
-.price-and-icon-container{
+.price-and-icon-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +48,7 @@ body{
   font-size: 18px;
 }
 
-.cart-icon{
+.cart-icon {
   background-color: lightgray;
   padding: 10px;
   border-radius: 50%;
@@ -53,7 +56,7 @@ body{
   transition: 0.15s ease;
 }
 
-.cart-icon:hover{
+.cart-icon:hover {
   color: lightgray;
   background-color: black;
 }
