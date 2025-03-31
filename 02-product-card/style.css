@@ -44,8 +44,8 @@ body {
 
 .price-and-icon-container p {
   color: #1877F2;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  /* font-size: 18px; */
 }
 
 .cart-icon {
