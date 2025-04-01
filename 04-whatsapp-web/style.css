@@ -71,6 +71,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 25px;
+  padding-right: 55px;
   gap: 20px;
   border-radius: 20px;
   border: 1px solid black;
@@ -121,4 +122,9 @@ body {
 .modal .right img {
   border-radius: 10px;
   height: 250px;
+  padding-bottom: 20px;
+}
+
+#checkbox-input{
+  accent-color: #25D366;
 }
