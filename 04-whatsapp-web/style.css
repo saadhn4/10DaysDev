@@ -11,11 +11,11 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: lightgray; */
+  background-color: #fcf5eb;
 }
 
 .navbar {
@@ -26,25 +26,30 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .navbar .logo {
   height: 50px;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 5px; 
-}
-
-.logo-container span{
+.whatsapp-icon{
   font-size: 30px;
   color: #25D366;
 }
 
-.navbar button{
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container span {
+  font-size: 30px;
+  color: #25D366;
+}
+
+.navbar button {
   padding: 10px 15px;
   background-color: #25D366;
   border: none;
@@ -55,13 +60,13 @@ body {
   transition: 0.15s ease;
 }
 
-.navbar button:hover{
+.navbar button:hover {
   background-color: white;
   color: #25D366;
 }
 
 .modal {
-  /* background-color: lightgray; */
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
