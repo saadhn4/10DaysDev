@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" readonly class="display" />
+      <div class="buttons-container">
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button
+          onclick="
+        calculation= eval(calculation)
+        input.value = calculation;
+        "
+        >
+          =
+        </button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay(' * ')">*</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay(' - ')">-</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay(' / ')">/</button>
+        <button onclick="appendToDisplay(' + ')">+</button>
+        <button
+          class="reset-btn"
+          onclick="
+        input.value=''
+        calculation=''
+        "
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <script>
+      let input = document.querySelector(".display");
+      let calculation = "";
+      function appendToDisplay(value) {
+        calculation = calculation + value;
+        input.value = calculation;
+      }
+    </script>
+  </body>
+</html>
