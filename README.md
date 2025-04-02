@@ -1,6 +1,6 @@
 # 10DaysDev
 
-Welcome to my 10 Days Dev Challenge! 🎯 Over the next 10 days, I’ll be pushing my limits and building something new every single day – from tiny tools to creative experiments. This challenge is all about learning fast, building consistently, and having fun while doing it!
+Over the next 10 days, I’m brushing up on my HTML and CSS skills, with a little JavaScript sprinkled in. Each day, I’ll be building something new – from UI components to small interactive projects – to strengthen my front-end fundamentals. It’s all about revising, experimenting, and having fun while leveling up!
 
 ---
 
