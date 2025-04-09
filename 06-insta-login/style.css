@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 100px;
+}
+
+
+.container .left img {
+  height: 450px;
+}
+
+.container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 450px;
+  /* 👈 same as .left img height */
+}
+
+.ig-logo {
+  height: 60px;
+  object-fit: contain;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group input {
+  padding: 7px 15px;
+  border: 1px solid white;
+  background: transparent;
+  width: 300px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+}
+
+.form-group .primary-input {
+  margin: 20px 0;
+}
+
+.form-group .secondary-input {
+  margin-bottom: 20px;
+}
+
+.form-group button {
+  width: 300px;
+  padding: 7px 15px;
+  color: white;
+  font-weight: 500;
+  background-color: hsl(216, 98%, 52%);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.15s ease;
+}
+
+.form-group button:hover {
+  background-color: hsl(216, 98%, 42%);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: white;
+}
+
+.divider span {
+  padding: 0 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.fb-icon-container a {
+  color: hsl(216, 98%, 52%);
+  text-decoration: none;
+
+}
+
+.fb-icon-container i {
+  margin-right: 10px;
+}
+
+.forgot-pw{
+  color: white;
+  text-decoration: none;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+.get-app-text{
+  margin-top: 25px;
+}
+
+.play-store-icon,.microsoft-icon{
+  height: 80px;
+}
+
+@media (max-width:1017px){
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
