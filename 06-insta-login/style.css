@@ -119,22 +119,25 @@ body {
   margin-right: 10px;
 }
 
-.forgot-pw{
+.forgot-pw {
   color: white;
   text-decoration: none;
   margin-top: 13px;
   margin-bottom: 20px;
 }
 
-.get-app-text{
+.get-app-text {
   margin-top: 25px;
 }
 
-.play-store-icon,.microsoft-icon{
+.play-store-icon,
+.microsoft-icon {
   height: 80px;
 }
 
-@media (max-width:1017px){
+/* Flop media query */
+
+@media (max-width:1017px) {
   .container {
     flex-direction: column;
     gap: 20px;
